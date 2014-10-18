@@ -1,4 +1,4 @@
-<h1>Listing teams</h1>
+<h1>Karate teams signed up for tournament</h1>
 
 <table>
   <thead>
@@ -20,7 +20,7 @@
         <td><%= team.contact_email %></td>
         <td><%= link_to 'Show', team %></td>
         <td><%= link_to 'Edit', edit_team_path(team) %></td>
-        <td><%= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Remove', team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
