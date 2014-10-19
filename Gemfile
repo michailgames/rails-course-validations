@@ -41,3 +41,7 @@ gem 'spring',        group: :development
 gem 'execjs'
 gem 'therubyracer'
 
+group :production do
+gem 'pg'
+end
+
